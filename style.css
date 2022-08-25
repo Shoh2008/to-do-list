@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+}
+body{
+    background: #2e2e2e;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.block{
+    height: 530px;
+    border-radius: 5px;
+    width: 350px;
+    background: #2e2e2e;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+.block .header{
+    height: 70px;
+    width: 340px;
+    background: #2e2e2e;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.block .header input{
+    height: 40px;
+    width: 200px;
+    outline: none;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #2e2e2e;
+    box-shadow: 0 0 10px black;
+}
+.block .header button{
+    height: 40px;
+    width: 100px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #2e2e2e;
+    box-shadow: 0 0 10px black;
+}
+.block .body{
+    height: 360px;
+    width: 340px;
+    background: #2e2e2e;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    overflow: scroll;
+}
+.block .body::-webkit-scrollbar{
+    height: 0;
+    width: 0;
+}
+.block .body .line{
+    height: 40px;
+    width: 330px;
+    background: #2e2e2e;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+    align-items: center;   
+    margin: 5px;
+}
+.block .body .line .display{
+    display: flex;
+}
+.block .body .line .display button{
+    height: 30px;
+    margin: 0 5px;
+    width: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #2e2e2e;
+    box-shadow: 0 0 10px black;
+}
+.block .body .line .id{
+    left: 0;
+    height: 30px;
+    width: 30px;
+    background: #2e2e2e;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.block .foot{
+    height: 70px;
+    width: 340px;
+    background: #2e2e2e;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.block .foot input{
+    height: 40px;
+    width: 200px;
+    outline: none;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #2e2e2e;
+    box-shadow: 0 0 10px black;
+}
